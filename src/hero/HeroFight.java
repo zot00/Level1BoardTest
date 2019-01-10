@@ -9,7 +9,7 @@ public class HeroFight {
 	 * bullets and move forward to fight another specific given number of dragons,
 	 * will he survive? Return True if yes, False otherwise :)
 	 */
-	static boolean hero(int i, int j) {
+	public static boolean hero(int bullets, int dragons) {
 		// TODO Write your method here
 		return false;
 	}

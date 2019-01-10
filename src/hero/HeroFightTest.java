@@ -6,7 +6,7 @@ import org.junit.Test;
 public class HeroFightTest {
 	
 	@Test
-	void testvalues() {
+	public void testvalues() {
 	 assertEquals(HeroFight.hero(10, 5), true);
 	 assertEquals(HeroFight.hero(7, 4), false);
 	 assertEquals(HeroFight.hero(4, 5), false);
@@ -21,7 +21,7 @@ public class HeroFightTest {
 	  return bullets/2>=dragons;
 	}
 	
-	void test2() {
+	public void test2() {
 	  for(int i=0; i<100; i++) {
 	    int bullets=(int)Math.random()*1000|0;
 	    int dragons=(int)Math.random()*bullets|0;

@@ -11,14 +11,18 @@ public class Alarm {
 	 * (because these are the circumstances under which you need to set an alarm).
 	 * It should return false otherwise. Examples:
 	 * 
-	 * setAlarm(true, true) -> false 
-	 * setAlarm(false, true) -> false 
-	 * setAlarm(true, false) -> true
+	 * setAlarm(true, true) -> false setAlarm(false, true) -> false setAlarm(true,
+	 * false) -> true
 	 */
 
 	public static boolean setAlarm(boolean employed, boolean vacation) {
 		// TODO Write your method here
-		return false;
+		if (employed == true && vacation == true || employed == false && vacation == false)
+			return false;
+		else if (employed == false && vacation == true)
+			return false;
+		else
+			return true;
 	}
 
 }
