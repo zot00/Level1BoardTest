@@ -17,12 +17,6 @@ public class Alarm {
 
 	public static boolean setAlarm(boolean employed, boolean vacation) {
 		// TODO Write your method here
-		if (employed == true && vacation == true || employed == false && vacation == false)
-			return false;
-		else if (employed == false && vacation == true)
-			return false;
-		else
-			return true;
 	}
 
 }
