@@ -19,7 +19,7 @@ public class KeepHydrated {
 	 * time = 11.8--> litres = 5
 	 */
 	public int Liters(double d) {
-		// TODO Auto-generated method stub
+		// TODO Write your method here
 		return 0;
 	}
 

@@ -10,7 +10,7 @@ public class HeroFight {
 	 * will he survive? Return True if yes, False otherwise :)
 	 */
 	static boolean hero(int i, int j) {
-		// TODO Auto-generated method stub
+		// TODO Write your method here
 		return false;
 	}
 }
