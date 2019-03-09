@@ -18,7 +18,11 @@ public class GrassHopper {
 
 	public static Object summation(int n) {
 		// TODO Write your code here.
-		return null;
+		int x = 0;
+		for(int i = 1; i<=n; i++) {
+			x=x+i;
+		}
+		return x;
 	}
 
 }

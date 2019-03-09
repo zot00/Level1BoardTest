@@ -21,7 +21,7 @@ public class KeepHydrated {
 	 **/
 	public int Liters(double time) {
 		// TODO Write your method here
-		return 0;
+		return (int) time/2;
 	}
 
 }

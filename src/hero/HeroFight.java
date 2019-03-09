@@ -11,6 +11,10 @@ public class HeroFight {
 	 */
 	public static boolean hero(int bullets, int dragons) {
 		// TODO Write your method here
-		return false;
+		if(bullets/2>=dragons) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }

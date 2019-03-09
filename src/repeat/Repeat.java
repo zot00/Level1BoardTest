@@ -16,6 +16,10 @@ public class Repeat {
 	 * </pre>
 	 **/
 	public static String repeatStr(final int repeat, final String string) {
-		return null;
+		String updater = "";
+		for(int i = 1; i<=repeat; i++) {
+			updater+=string;
+		}
+		return updater;
 	}
 }
